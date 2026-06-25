@@ -1,0 +1,16 @@
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+  margin-right: 70px;
+}
+p {
+  text-align: left;
+}
+.main1,
+.main2,
+.main3,
+.main4 {
+  display: flex;
+  justify-content: space-between;
+}
