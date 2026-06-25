@@ -1,0 +1,41 @@
+.footer-column {
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer {
+  background: #0f172a;
+  color: white;
+}
+footer a {
+  color: #cbd5e1;
+}
+footer a:hover {
+  color: #10b981;
+}
+input {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  color: white;
+}
+.subscribe-btn {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  color: grey;
+  width: 80px;
+  height: 30px;
+  margin-left: 5px;
+}
+.email-input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+.footer-bottom {
+  font-size: 12px;
+}

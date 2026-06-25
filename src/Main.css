@@ -1,11 +1,25 @@
-.mainSection {
+.mainSection1 {
   display: flex;
   justify-content: space-between;
   margin: 50px 100px;
   margin-right: 70px;
 }
-p {
-  text-align: left;
+.main1 {
+  background: #dcfce7;
+  color: #16a34a;
+}
+.main2 {
+  background: #dbeafe;
+  color: #2563eb;
+}
+.main3 {
+  background: #f3e8ff;
+  color: #9333ea;
+}
+
+.main4 {
+  background: #dcfce7;
+  color: #16a34a;
 }
 .main1,
 .main2,
@@ -13,4 +27,95 @@ p {
 .main4 {
   display: flex;
   justify-content: space-between;
+  background-color: #f0f0f0;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 30px;
+  transition: 0.3s ease;
+}
+.main1:hover,
+.main2:hover,
+.main3:hover,
+.main4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 20px 40px rgba(15, 23, 42, 0.08);
+}
+.articles {
+  display: flex;
+  justify-content: space-around;
+}
+.article1,
+.article2,
+.article3 {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+  padding: 20px;
+}
+.article1:hover,
+.article2:hover,
+.article3:hover {
+  transform: translateY(-6px);
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+.stat1,
+.stat2,
+.stat3,
+.stat4 {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(15, 23, 42, 0.05);
+}
+.stat1:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+.stat2:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+.stat3:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+.stat4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 30px rgba(15, 23, 42, 0.1);
+}
+
+.blue-btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.green-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.purple-btn {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.CTA {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border-radius: 32px;
+  padding: 80px;
+  margin-top: 30px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homepage.css";
+import Footer from "./components/Footer.js";
 import MainSection from "./components/MainSection.js";
 import HeroImage from "./Images/Hero.jpg";
 
@@ -16,9 +17,9 @@ export default function Homepage() {
                 <span className="highlight">Independent Digital Life</span>
               </h1>
               <p>
-                Here you get practical tips, real life experiences and proven
-                strategies to help students learn skills, find opportunities and
-                earn online.
+                I am documenting my journey as a student learning tech,
+                exploring online opportunities and working towards financial
+                independence while sharing everything I learn.
               </p>
               <div className="btn">
                 <div>
@@ -32,6 +33,10 @@ export default function Homepage() {
                   </a>
                 </div>
               </div>
+              <p className="note">
+                Building a community of students learning, growing and creating
+                digital independence.
+              </p>
             </div>
             <div className="content2">
               <img src={HeroImage} alt="Hero" className="heroImage" />
@@ -42,6 +47,7 @@ export default function Homepage() {
       <div className="mainSection">
         <MainSection />
       </div>
+      <Footer />
     </div>
   );
 }
