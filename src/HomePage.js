@@ -1,5 +1,5 @@
 import React from "react";
-import "./Homepage.css";
+import "./HomePage.css";
 import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.js";
 import MainSection from "./components/MainSection.js";
