@@ -5,7 +5,7 @@ import Footer from "./components/Footer.js";
 import MainSection from "./components/MainSection.js";
 import HeroImage from "./Images/Hero.jpg";
 
-export default function Homepage() {
+export default function HomePage() {
   return (
     <div>
       <div>
