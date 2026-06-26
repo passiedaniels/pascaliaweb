@@ -74,6 +74,12 @@ export default function Footer() {
         </div>
         <div>Designed with ❤️ by Pascalia </div>
       </p>
+      <p className="footer-bottom">
+        This website was made by{" "}
+        <a href="https://github.com/passiedaniels">Pascalia A.</a>, pushed on{" "}
+        <a href="https://github.com/passiedaniels/pascaliaweb">Github</a> and
+        hosted on <a href="https://pascaliaweb.netlify.app/">Netlify</a>
+      </p>
     </div>
   );
 }
