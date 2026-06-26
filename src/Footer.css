@@ -9,6 +9,9 @@ ul {
 .footer {
   background: #0f172a;
   color: white;
+  border-radius: 30px;
+  padding: 20px;
+  margin-top: 50px;
 }
 footer a {
   color: #cbd5e1;

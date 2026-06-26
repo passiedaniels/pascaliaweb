@@ -1,0 +1,69 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  border-radius: 20px;
+  background: WHITE;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+}
+.Values {
+  display: flex;
+  justify-content: space-around;
+}
+.myself {
+  display: flex;
+  justify-content: space-around;
+}
+.picture-me {
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+}
+.image-me,
+.words-me {
+  flex: 1;
+}
+.herosection {
+  background: #eff6ff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.mainSection {
+  background: #f8fafc;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover {
+  transform: translateY(-8px);
+}
+.values1,
+.values2,
+.values3,
+.values4 {
+  border-radius: 20px;
+  background: WHITE;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+}
+.values1:hover,
+.values2:hover,
+.values3:hover,
+.values4:hover {
+  transform: translateY(-8px);
+}
+.story-content {
+  border-left: 5px solid #2563eb;
+  padding: 30px;
+  background: white;
+  margin: 50px;
+}
+.quote {
+  border: 1px solid black;
+  display: inline-block;
+}

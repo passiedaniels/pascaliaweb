@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homepage.css";
+import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.js";
 import MainSection from "./components/MainSection.js";
 import HeroImage from "./Images/Hero.jpg";
@@ -7,6 +8,9 @@ import HeroImage from "./Images/Hero.jpg";
 export default function Homepage() {
   return (
     <div>
+      <div>
+        <NavBar />
+      </div>
       <header>
         <div className="container">
           <div className="header1">
