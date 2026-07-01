@@ -1,0 +1,14 @@
+.blog-page {
+  background: #f8fafc;
+}
+.area1 {
+  background: #eff6ff;
+}
+
+.category-links-1,
+.category-links-2 {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
