@@ -1,5 +1,8 @@
 import React from "react";
 import "../Main.css";
+import cvImage from "../Images/cv.jpg";
+import frontEnd from "../Images/front-end.jpg";
+import learnImage from "../Images/learn.jpg";
 
 export default function MainSection() {
   return (
@@ -27,7 +30,7 @@ export default function MainSection() {
       <div className="mainSection1">
         <div className="main1">
           <div className="image1">
-            <img src="https://example.com/hat.jpg" alt="Hat" />
+            <i className="bi bi-mortarboard-fill"></i>
           </div>
           <div className="Main1-content">
             <h4>Student Life</h4>
@@ -41,7 +44,7 @@ export default function MainSection() {
         </div>
         <div className="main2">
           <div className="image2">
-            <img src="https://example.com/tech.jpg" alt="Tech" />
+            <i className="bi bi-laptop"></i>
           </div>
           <div className="Main2-content">
             <h4>Tech & Skills</h4>
@@ -56,7 +59,7 @@ export default function MainSection() {
         </div>
         <div className="main3">
           <div className="image3">
-            <img src="https://example.com/career.jpg" alt="Career" />
+            <i className="bi bi-graph-up-arrow"></i>
           </div>
           <div className="Main3-content">
             <h4>Career Growth</h4>
@@ -70,7 +73,7 @@ export default function MainSection() {
         </div>
         <div className="main4">
           <div className="image4">
-            <img src="https://example.com/income.jpg" alt="Income" />
+            <i className="bi bi-cash-stack"></i>
           </div>
           <div className="Main4-content">
             <h4>Online Income</h4>
@@ -90,17 +93,17 @@ export default function MainSection() {
         <div className="learn-content">
           <div className="articles">
             <div className="article1">
-              <img src="https://example.com/article1.jpg" alt="Article 1" />
+              <img src={learnImage} alt="Article 1" />
               <h4>5 Study Habits that changed my University life</h4>
               <p>May 10, 2024. 5 min read</p>
             </div>
             <div className="article2">
-              <img src="https://example.com/article2.jpg" alt="Article 2" />
+              <img src={frontEnd} alt="Article 2" />
               <h4>How I am learning Frontend Development as a student</h4>
               <p>May 8, 2024. 7 min read</p>
             </div>
             <div className="article3">
-              <img src="https://example.com/article3.jpg" alt="Article 3" />
+              <img src={cvImage} alt="Article 3" />
               <h4>How to create CV with No Experience (step-by-step)</h4>
               <p>May 5, 2024. 6 min read</p>
             </div>

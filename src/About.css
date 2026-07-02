@@ -2,10 +2,8 @@
   display: flex;
   justify-content: space-around;
 }
-.card1,
-.card2,
-.card3,
-.card4 {
+
+.card {
   border-radius: 20px;
   background: WHITE;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -36,25 +34,19 @@
 .mainSection {
   background: #f8fafc;
 }
-.card1:hover,
-.card2:hover,
-.card3:hover,
-.card4:hover {
+
+.card:hover {
   transform: translateY(-8px);
 }
-.values1,
-.values2,
-.values3,
-.values4 {
+
+.value {
   border-radius: 20px;
   background: WHITE;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   padding: 30px;
 }
-.values1:hover,
-.values2:hover,
-.values3:hover,
-.values4:hover {
+
+.value:hover {
   transform: translateY(-8px);
 }
 .story-content {
@@ -66,4 +58,64 @@
 .quote {
   border: 1px solid black;
   display: inline-block;
+}
+@media (max-width: 768px) {
+  .herosection h1 {
+    font-size: 20px;
+  }
+  .herosection p {
+    font-size: 15px;
+  }
+
+  .picture-me {
+    width: 400px;
+    height: 400px;
+  }
+  .myself {
+    padding: 10px;
+  }
+
+  .story-content h2 {
+    font-size: 20px;
+  }
+  .story-content p {
+    font-size: 14px;
+  }
+  .quote p {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .middle h2 {
+    font-size: 20px;
+  }
+  .card h4 {
+    font-size: 15px;
+  }
+  .card p {
+    font-size: 13px;
+  }
+  .cards {
+    gap: 8px;
+    padding: 10px;
+  }
+  .value h5 {
+    font-size: 15px;
+  }
+  .value p {
+    font-size: 13px;
+  }
+  .Values {
+    gap: 8px;
+    padding: 10px;
+  }
+  .middle-1 h2 {
+    font-size: 20px;
+  }
+  .middle-2 h2 {
+    font-size: 20px;
+  }
+  .middle-2 p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
 }

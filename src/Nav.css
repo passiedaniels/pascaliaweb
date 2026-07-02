@@ -18,3 +18,9 @@ nav {
   color: #2563eb;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .nav-content {
+    font-size: 13px;
+    margin: 0;
+  }
+}

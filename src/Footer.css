@@ -53,3 +53,28 @@ input {
 .footer-column2 li {
   color: #2563eb;
 }
+@media (max-width: 768px) {
+  .footer h3 {
+    font-size: 15px;
+  }
+  .footer p {
+    font-size: 13px;
+  }
+  .footer h4 {
+    font-size: 15px;
+  }
+  li {
+    font-size: 13px;
+  }
+  .footer-bottom {
+    font-size: 11px;
+  }
+  .subscribe-btn {
+    width: 70px;
+    height: 40px;
+  }
+  .email-input {
+    width: 200px;
+    height: 15px;
+  }
+}

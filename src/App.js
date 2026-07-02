@@ -4,6 +4,7 @@ import Homepage from "./HomePage.js";
 import BlogPage from "./BlogPage.js";
 import { Routes, Route } from "react-router-dom";
 import ContactPage from "./ContactPage.js";
+import "bootstrap-icons/font/bootstrap-icons.css";
 function App() {
   return (
     <div className="App">

@@ -48,51 +48,53 @@ export default function AboutPage() {
           <p>"Small consistent step creates extraordinary results"</p>
         </div>
       </div>
-      <h2>My Journey</h2>
-      <div className="cards">
-        <div className="card1">
-          <h4>Students</h4>
-          <p>Bulding my future</p>
-          <p>Through Education</p>
-        </div>
-        <div className="card2">
-          <h4>Front-End Dev</h4>
-          <p>Learning modern web</p>
-          <p>development skills</p>
-        </div>
-        <div className="card3">
-          <h4>Content Creator</h4>
-          <p>Sharing lessons and</p>
-          <p> resources with students</p>
-        </div>
-        <div className="card4">
-          <h4>Enterprenuer</h4>
-          <p>Working towards</p>
-          <p>Financial Independence</p>
+      <div className="middle">
+        <h2>My Journey</h2>
+        <div className="cards">
+          <div className="card">
+            <h4>Students</h4>
+            <p>Bulding my future</p>
+            <p>Through Education</p>
+          </div>
+          <div className="card">
+            <h4>Front-End Dev</h4>
+            <p>Learning modern web</p>
+            <p>development skills</p>
+          </div>
+          <div className="card">
+            <h4>Content Creator</h4>
+            <p>Sharing lessons and</p>
+            <p> resources with students</p>
+          </div>
+          <div className="card">
+            <h4>Enterprenuer</h4>
+            <p>Working towards</p>
+            <p>Financial Independence</p>
+          </div>
         </div>
       </div>
-      <div>
+      <div className="middle-1">
         <h2>What I Beleive In</h2>
         <div className="Values">
-          <div className="values1">
+          <div className="value">
             <h5>Learning</h5>
             <p>Growth starts with learning</p>
           </div>
-          <div className="values2">
+          <div className="value">
             <h5>Consistency</h5>
             <p>Small daily progress adds up</p>
           </div>
-          <div className="values3">
+          <div className="value">
             <h5>Helping Others</h5>
             <p>Sharing Knowledge matters</p>
           </div>
-          <div className="values4">
+          <div className="value">
             <h5>Faith</h5>
             <p>Trusting the journey and staying hopeful</p>
           </div>
         </div>
       </div>
-      <div>
+      <div className="middle-2">
         <h2>Lets Grow Together</h2>
         <p>
           Whether you are a smart student, learner or future enterprenuer, you

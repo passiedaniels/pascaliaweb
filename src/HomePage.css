@@ -7,6 +7,7 @@
 .header1 {
   display: flex;
   background-color: #eaecf0;
+  padding: 15px;
 }
 .content1,
 .content2 {
@@ -41,4 +42,29 @@ h6 {
 }
 .highlight {
   color: blue;
+}
+@media (max-width: 768px) {
+  .heroImage {
+    height: 400px;
+  }
+  .btn {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 40px;
+
+    gap: 15px;
+    font-size: 12px;
+  }
+  .content1 h1 {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .content1 h6 {
+    font-size: 10px;
+    margin-left: 15px;
+  }
+  .content1 p {
+    font-size: 13px;
+    margin-left: 15px;
+  }
 }
