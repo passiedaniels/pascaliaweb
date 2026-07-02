@@ -44,103 +44,114 @@ export default function BlogPage() {
       </div>
       <div className="featured-article">
         <h2>Featured Article</h2>
-        <img src="/article" alt="article" />
+        <div>
+          <img src="/article" alt="article" />
+        </div>
         <h4>How I started learning Front End Development..</h4>
         <p>
           {" "}
-          A personal story about learning coding as a studen, overcoming
+          A personal story about learning coding as a student, overcoming
           challenges and building practical skills.
         </p>
-        <a href="/more">Read More</a>
+        <a href="/more" className="read-more">
+          Read More
+        </a>
+      </div>
+      <div className="latest-articles-header">
+        <h2>Latest Articles</h2>
       </div>
       <div className="latest-articles">
-        <div className="latest-article1">
+        <div>
+          <div className="article-card">
+            <div>
+              <img src="/https" alt="article" />
+            </div>
+            <div>
+              <h3>Online Income</h3>
+              <p>Earn Online as a Student</p>
+              <a href="/https" className="category-badge">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="article-card">
           <div>
             <img src="/https" alt="article" />
           </div>
           <div>
-            <h2>Online Income</h2>
-            <p>Earn Online as a Student</p>
+            <h3>Student Life</h3>
+            <p>Study Habits That Works</p>
             <a href="/https">Read More</a>
+          </div>
+        </div>
+
+        <div className="article-card">
+          <div>
+            <img src="/https" alt="article" />
+          </div>
+          <div>
+            <h3>Opportunities</h3>
+            <p>Internship Guide</p>
+            <a href="/https" className="category-badge">
+              Read More
+            </a>
+          </div>
+        </div>
+
+        <div className="article-card">
+          <div>
+            <img src="/https" alt="article" />
+          </div>
+          <div>
+            <h3>Career Growth</h3>
+            <p>Creating CV with no experience</p>
+            <a href="/https" className="category-badge">
+              Read full article
+            </a>
+          </div>
+        </div>
+
+        <div className="article-card">
+          <div>
+            <img src="/https" alt="article" />
+          </div>
+          <div>
+            <h3>Tech skills</h3>
+            <p>My First React Project</p>
+            <a href="/https" className="category-badge">
+              Read More
+            </a>
+          </div>
+        </div>
+
+        <div className="article-card">
+          <div>
+            <img src="/https" alt="article" />
+          </div>
+          <div>
+            <h3>Student Life</h3>
+            <p>5 side hustles for students</p>
+            <a href="/https" className="category-badge">
+              Read More
+            </a>
           </div>
         </div>
       </div>
 
-      <div className="latest-article2">
-        <div>
-          <img src="/https" alt="article" />
-        </div>
-        <div>
-          <h2>Student Life</h2>
-          <p>Study Habits That Works</p>
-          <a href="/https">Read More</a>
-        </div>
-      </div>
-
-      <div className="latest-article3">
-        <div>
-          <img src="/https" alt="article" />
-        </div>
-        <div>
-          <h2>Opportunities</h2>
-          <p>Internship Guide</p>
-          <a href="/https">Read More</a>
-        </div>
-      </div>
-
-      <div className="latest-article4">
-        <div>
-          <img src="/https" alt="article" />
-        </div>
-        <div>
-          <h2>Career Growth</h2>
-          <p>Creating CV with no experience</p>
-          <a href="/https">Read full article</a>
-        </div>
-      </div>
-
-      <div className="latest-article5">
-        <div>
-          <img src="/https" alt="article" />
-        </div>
-        <div>
-          <h2>Tech skills</h2>
-          <p>My First React Project</p>
-          <a href="/https">Read More</a>
-        </div>
-      </div>
-
-      <div className="latest-article6">
-        <div>
-          <img src="/https" alt="article" />
-        </div>
-        <div>
-          <h2>Student Life</h2>
-          <p>5 side hustles for students</p>
-          <a href="/https">Read More</a>
-        </div>
-      </div>
-
-      <div>
+      <div className="Newsletter">
         <h3>Join the Journey</h3>
         <p>
           Get new articles,opportunities, tech resources and student success
           tips delivered to your inbox
         </p>
         <form>
-          <input
-            type="email"
-            placeholder="Enter Email"
-            className="email-input"
-          />
-          <input
-            type="submit"
-            placeholder="Subscribe"
-            className="subscribe-btn"
-          />
+          <input type="email" placeholder="Enter Email" className="input" />
+          <input type="submit" placeholder="Subscribe" className="button" />
         </form>
       </div>
-      <div>
+      <div className="blogpage-footer">
         <h3>Student Digital Independence</h3>
         <p>
           Helping students build skills, discover opportunities and create
