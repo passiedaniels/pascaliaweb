@@ -1,5 +1,6 @@
 .contact-header {
   background: linear-gradient(135deg, #eff6ff, #f8fafc);
+  padding: 80px 20px;
 }
 .contact-form {
   background: white;
@@ -7,6 +8,19 @@
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
   margin-top: 20px;
+}
+.contact-location p {
+  color: blue;
+}
+.contact-items h5 {
+  font-size: 18px;
+}
+.contact-area {
+  background: white;
+  padding: 50px 20px;
+  margin-top: 20px;
+  border-radius: 24px;
+  margin-bottom: 20px;
 }
 .form-group-1,
 .form-group-2,
@@ -63,9 +77,11 @@ h2::after {
   justify-content: center;
   gap: 50px;
 }
-.q&a {
-  text-align: left;
+.questions {
   margin-top: 20px;
+  background: #fecfd5;
+  border-radius: 24px;
+  padding: 50px;
 }
 .contactpage-link {
   display: inline-block;

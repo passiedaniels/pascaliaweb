@@ -30,9 +30,14 @@ input {
   border: 1px solid #334155;
   border-radius: 12px;
   color: grey;
-  width: 80px;
-  height: 30px;
+  width: 100px;
+  height: 55px;
   margin-left: 5px;
+  padding: 5px;
+}
+.subscribe-btn:hover {
+  background: #2563eb;
+  color: white;
 }
 .email-input {
   width: 300px;
@@ -41,4 +46,10 @@ input {
 }
 .footer-bottom {
   font-size: 12px;
+}
+.footer-column a {
+  color: #2563eb;
+}
+.footer-column2 li {
+  color: #2563eb;
 }

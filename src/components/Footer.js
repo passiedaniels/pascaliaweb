@@ -39,16 +39,18 @@ export default function Footer() {
           <h4>Connect</h4>
           <ul>
             <li>
-              <a href="https://www.facebook.com">Facebook</a>
+              <a href="https://facebook.com/pascalia.aletia">Facebook</a>
             </li>
             <li>
-              <a href="https://www.twitter.com">Tiktok</a>
+              <a href="https://www.tiktok.com/@passie_daniels">TikTok</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/pascalia-ekiteles">
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a href="https://www.instagram.com">Instagram</a>
+              <a href="https://www.instagram.com/ekiteles_pae">Instagram</a>
             </li>
           </ul>
         </div>
@@ -58,15 +60,13 @@ export default function Footer() {
         Get new articles, student oportunities, tech resources and career tips
         delivered straight to your inbox.
       </p>
-      <form>
+      <form id="Newsletter">
         <input
           type="email"
           placeholder="Enter your email"
           className="email-input"
         />
-        <button type="submit" className="subscribe-btn">
-          Subscribe
-        </button>
+        <input type="submit" className="subscribe-btn" value="Subscribe" />
       </form>
       <p className="footer-bottom">
         <div>

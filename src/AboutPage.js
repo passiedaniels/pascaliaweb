@@ -26,7 +26,7 @@ export default function AboutPage() {
             <p>
               This Website documents my journey toward digital independence.
             </p>
-            <a href="https/contact" className="blue-btn">
+            <a href="/contact" className="blue-btn">
               Contact Me
             </a>
           </div>
@@ -98,7 +98,7 @@ export default function AboutPage() {
           Whether you are a smart student, learner or future enterprenuer, you
           welcome here.
         </p>
-        <a href="https//contact" className="green-btn">
+        <a href="contact" className="green-btn">
           Contact me
         </a>
       </div>

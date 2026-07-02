@@ -127,7 +127,7 @@ export default function MainSection() {
           <p>Learn New Skills.</p>
           <p>Discover Opportunities.</p>
           <p>Build your Future.</p>
-          <a href="/courses" className="green-btn">
+          <a href="/blog" className="green-btn">
             Explore Articles
           </a>
         </div>

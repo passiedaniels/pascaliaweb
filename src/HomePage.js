@@ -27,12 +27,12 @@ export default function HomePage() {
               </p>
               <div className="btn">
                 <div>
-                  <a href="/articles" className="primary">
+                  <a href="/blog" className="primary">
                     Read latest articles
                   </a>
                 </div>
                 <div>
-                  <a href="/courses" className="secondary">
+                  <a href="/contact" className="secondary">
                     Start your journey
                   </a>
                 </div>
