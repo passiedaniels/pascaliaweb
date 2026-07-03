@@ -28,12 +28,12 @@ export default function HomePage() {
               <div className="btn">
                 <div>
                   <a href="/blog" className="primary">
-                    Read latest articles
+                    Read articles
                   </a>
                 </div>
                 <div>
                   <a href="/contact" className="secondary">
-                    Start your journey
+                    Start journey
                   </a>
                 </div>
               </div>

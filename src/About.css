@@ -28,8 +28,10 @@
 }
 .herosection {
   background: #eff6ff;
-  padding: 10px;
+
   margin-bottom: 10px;
+  width: 100%;
+  max-width: 100%;
 }
 .mainSection {
   background: #f8fafc;
@@ -59,7 +61,11 @@
   border: 1px solid black;
   display: inline-block;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  .herosection {
+    width: 100%;
+    max-width: 100%;
+  }
   .herosection h1 {
     font-size: 20px;
   }
@@ -72,7 +78,7 @@
     height: 400px;
   }
   .myself {
-    padding: 10px;
+    flex-direction: column;
   }
 
   .story-content h2 {
@@ -97,6 +103,8 @@
   .cards {
     gap: 8px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
   .value h5 {
     font-size: 15px;
@@ -107,6 +115,8 @@
   .Values {
     gap: 8px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
   .middle-1 h2 {
     font-size: 20px;

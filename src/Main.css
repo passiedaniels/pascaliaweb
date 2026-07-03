@@ -1,8 +1,9 @@
 .mainSection1 {
   display: flex;
   justify-content: space-between;
-  margin: 50px 100px;
-  margin-right: 70px;
+  margin: 100px;
+  margin-right: 50px;
+  margin-left: 40px;
 }
 .main1 {
   background: #dcfce7;
@@ -125,25 +126,28 @@ i {
   padding: 80px;
   margin-top: 30px;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .stats {
     padding: 15px;
     gap: 15px;
     font-size: 13px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
   .mainSection1 h4 {
     font-size: 15px;
   }
   .mainSection1 {
+    padding: 12px;
+    margin: 0;
     font-size: 13px;
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 15px;
-    margin: 15px;
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
   .articles {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 12px;
     padding: 10px;
   }

@@ -16,7 +16,7 @@
 .btn {
   display: flex;
   gap: 20px;
-  margin-left: 200px;
+  margin-left: 80px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -43,17 +43,16 @@ h6 {
 .highlight {
   color: blue;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .heroImage {
     height: 400px;
   }
   .btn {
-    display: flex;
+    flex-direction: column;
     margin-left: 20px;
-    margin-top: 40px;
 
-    gap: 15px;
-    font-size: 12px;
+    gap: 50px;
+    font-size: 13px;
   }
   .content1 h1 {
     font-size: 20px;
@@ -66,5 +65,8 @@ h6 {
   .content1 p {
     font-size: 13px;
     margin-left: 15px;
+  }
+  .header1 {
+    flex-direction: column;
   }
 }
