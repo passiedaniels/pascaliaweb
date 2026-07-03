@@ -1,8 +1,8 @@
 .nav-content {
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 nav ul {
   display: flex;

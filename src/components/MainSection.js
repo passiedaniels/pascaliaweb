@@ -30,7 +30,7 @@ export default function MainSection() {
       <div className="mainSection1">
         <div className="main1">
           <div className="image1">
-            <i className="bi bi-mortarboard-fill"></i>
+            <i className="bi bi-mortarboard-fill text-success "></i>
           </div>
           <div className="Main1-content">
             <h4>Student Life</h4>
@@ -44,7 +44,7 @@ export default function MainSection() {
         </div>
         <div className="main2">
           <div className="image2">
-            <i className="bi bi-laptop"></i>
+            <i className="bi bi-laptop text-success"></i>
           </div>
           <div className="Main2-content">
             <h4>Tech & Skills</h4>
@@ -59,28 +59,28 @@ export default function MainSection() {
         </div>
         <div className="main3">
           <div className="image3">
-            <i className="bi bi-graph-up-arrow"></i>
+            <i className="bi bi-graph-up-arrow text-success"></i>
           </div>
           <div className="Main3-content">
             <h4>Career Growth</h4>
             <p>
               Cv tips, job hunting, internship and building a successful career
             </p>
-            <a href="/articles" className="purple-btn">
+            <a href="/articles" className="green-btn">
               Explore
             </a>
           </div>
         </div>
         <div className="main4">
           <div className="image4">
-            <i className="bi bi-cash-stack"></i>
+            <i className="bi bi-cash-stack text-success"></i>
           </div>
           <div className="Main4-content">
             <h4>Online Income</h4>
             <p>
               Side hustles, freelancing, business ideas and financial freedom.
             </p>
-            <a href="/articles" className="green-btn">
+            <a href="/articles" className="blue-btn">
               Explore
             </a>
           </div>

@@ -7,7 +7,19 @@
 }
 .main1 {
   background: #dcfce7;
-  color: #16a34a;
+  color: #2563eb;
+}
+.Main1-content p {
+  color: #333;
+}
+.Main2-content p {
+  color: #333;
+}
+.Main3-content p {
+  color: #333;
+}
+.Main4-content p {
+  color: #333;
 }
 .main2 {
   background: #dbeafe;
@@ -15,12 +27,12 @@
 }
 .main3 {
   background: #f3e8ff;
-  color: #9333ea;
+  color: #2563eb;
 }
 
 .main4 {
   background: #dcfce7;
-  color: #16a34a;
+  color: #2563eb;
 }
 .main1,
 .main2,
@@ -106,7 +118,7 @@ i {
   margin-top: 10px;
 }
 .green-btn {
-  background-color: green;
+  background-color: blue;
   color: white;
   padding: 10px 20px;
   border-radius: 20px;

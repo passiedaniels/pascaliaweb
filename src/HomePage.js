@@ -12,7 +12,7 @@ export default function HomePage() {
         <NavBar />
       </div>
       <header>
-        <div className="container">
+        <div>
           <div className="header1">
             <div className="content1">
               <h6>Your journey to skills, opportunities & financial freedom</h6>

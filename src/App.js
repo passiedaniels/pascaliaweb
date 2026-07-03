@@ -5,6 +5,8 @@ import BlogPage from "./BlogPage.js";
 import { Routes, Route } from "react-router-dom";
 import ContactPage from "./ContactPage.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
