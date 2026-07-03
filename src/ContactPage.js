@@ -1,9 +1,31 @@
 import React from "react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 
 export default function ContactPage() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_o3bdht7",
+        "template_3r2jxju",
+        form.current,
+        "EUSuCzjJKdI9z5uZf",
+      )
+      .then(() => {
+        alert("Message sent successfully!");
+      })
+      .catch((error) => {
+        console.log(error);
+        alert("Failed to send message.");
+      });
+  };
   return (
     <div>
       <Navbar />
@@ -44,7 +66,7 @@ export default function ContactPage() {
             </div>
             <div className="contact-form">
               <h3>Contact Form</h3>
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="form-group">
                   <div className="form-group-1">
                     <label htmlFor="name">Name:</label>

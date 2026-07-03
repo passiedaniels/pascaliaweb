@@ -1,4 +1,6 @@
 import React from "react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./Blog.css";
 import NavBar from "./components/NavBar";
 import frontEnd from "./Images/front-end.jpg";
@@ -10,6 +12,26 @@ import careerGrowth from "./Images/career growth.jpg";
 import opportunities from "./Images/opportunities.jpg";
 
 export default function BlogPage() {
+  const form = useRef();
+
+  const subscribe = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_o3bdht7",
+        "template_qaznwir",
+        form.current,
+        "EUSuCzjJKdI9z5uZf",
+      )
+      .then(() => {
+        alert("Thank you for subscribing!!");
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.log(error);
+        alert("Subscription failed...");
+      });
+  };
   return (
     <div className="blog-page">
       <NavBar />
@@ -153,8 +175,13 @@ export default function BlogPage() {
           Get new articles,opportunities, tech resources and student success
           tips delivered to your inbox
         </p>
-        <form>
-          <input type="email" placeholder="Enter Email" className="input" />
+        <form ref={form} onSubmit={subscribe}>
+          <input
+            name="subscriber_email"
+            type="email"
+            placeholder="Enter Email"
+            className="input"
+          />
           <input type="submit" placeholder="Subscribe" className="button" />
         </form>
       </div>

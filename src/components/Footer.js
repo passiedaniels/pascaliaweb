@@ -1,6 +1,29 @@
 import React from "react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "../Footer.css";
 export default function Footer() {
+  const form = useRef();
+
+  const subscribe = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_o3bdht7",
+        "template_qaznwir",
+        form.current,
+        "EUSuCzjJKdI9z5uZf",
+      )
+      .then(() => {
+        alert("Thank you for subscribing!!");
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.log(error);
+        alert("Subscription failed....");
+      });
+  };
   return (
     <div className="footer">
       <h3>Student to Digital Independence</h3>
@@ -60,11 +83,13 @@ export default function Footer() {
         Get new articles, student oportunities, tech resources and career tips
         delivered straight to your inbox.
       </p>
-      <form id="Newsletter">
+      <form ref={form} onSubmit={subscribe} id="Newsletter">
         <input
           type="email"
+          name="subscriber_email"
           placeholder="Enter your email"
           className="email-input"
+          required
         />
         <input type="submit" className="subscribe-btn" value="Subscribe" />
       </form>
