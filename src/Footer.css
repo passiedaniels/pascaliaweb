@@ -49,6 +49,7 @@ input {
 }
 .footer-column a {
   color: #2563eb;
+  text-decoration: none;
 }
 .footer-column2 li {
   color: #2563eb;

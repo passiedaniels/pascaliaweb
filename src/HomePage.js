@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.js";
 import MainSection from "./components/MainSection.js";
 import HeroImage from "./Images/Hero.jpg";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -27,14 +28,14 @@ export default function HomePage() {
               </p>
               <div className="btn">
                 <div>
-                  <a href="/blog" className="primary">
+                  <Link to="/blog" className="primary">
                     Read articles
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a href="/contact" className="secondary">
+                  <Link to="/contact" className="secondary">
                     Start journey
-                  </a>
+                  </Link>
                 </div>
               </div>
               <p className="note">

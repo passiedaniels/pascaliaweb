@@ -1,5 +1,6 @@
 import React from "react";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import Navbar from "./components/NavBar";
@@ -138,9 +139,9 @@ export default function ContactPage() {
       <div className="superb">
         <h3>Thank you for visiting !!</h3>
         <p>I appreciate you taking your time to explore my Journey.</p>
-        <a href="/blog" className="contactpage-link">
+        <Link to="/blog" className="contactpage-link">
           Back to Blog
-        </a>
+        </Link>
       </div>
       <Footer />
     </div>

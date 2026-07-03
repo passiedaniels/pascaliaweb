@@ -9,6 +9,18 @@
   background: #dcfce7;
   color: #2563eb;
 }
+.main1 a {
+  text-decoration: none;
+}
+.main2 a {
+  text-decoration: none;
+}
+.main3 a {
+  text-decoration: none;
+}
+.main4 a {
+  text-decoration: none;
+}
 .Main1-content p {
   color: #333;
 }
@@ -71,6 +83,15 @@
 .article2:hover,
 .article3:hover {
   transform: translateY(-6px);
+}
+.mainSection a {
+  text-decoration: none;
+}
+.mainSection4 a {
+  text-decoration: none;
+}
+.mainSection4 {
+  margin-top: 20px;
 }
 img {
   width: 400px;

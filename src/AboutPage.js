@@ -3,6 +3,7 @@ import "./About.css";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import MyselfPic from "./Images/myself.jpg";
+import { Link } from "react-router-dom";
 export default function AboutPage() {
   return (
     <div>
@@ -26,9 +27,9 @@ export default function AboutPage() {
             <p>
               This Website documents my journey toward digital independence.
             </p>
-            <a href="/contact" className="blue-btn">
+            <Link to="/contact" className="blue-btn">
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -100,9 +101,9 @@ export default function AboutPage() {
           Whether you are a smart student, learner or future enterprenuer, you
           welcome here.
         </p>
-        <a href="contact" className="green-btn">
+        <Link to="contact" className="green-btn">
           Contact me
-        </a>
+        </Link>
       </div>
       <Footer />
     </div>

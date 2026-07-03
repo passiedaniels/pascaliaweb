@@ -3,6 +3,7 @@ import "../Main.css";
 import cvImage from "../Images/cv.jpg";
 import frontEnd from "../Images/front-end.jpg";
 import learnImage from "../Images/learn.jpg";
+import { Link } from "react-router-dom";
 
 export default function MainSection() {
   return (
@@ -118,21 +119,21 @@ export default function MainSection() {
             helping students discover opportunity online.
           </p>
           <p>
-            This website documenta my journey from studnt life to digital
+            This website documents my journey from studnt life to digital
             independence
           </p>
-          <a href="/about" className="blue-btn">
+          <Link to="/about" className="blue-btn">
             Read my story
-          </a>
+          </Link>
         </div>
         <div className="mainSection4">
           <h4>Ready to start your Digital Journey?</h4>
           <p>Learn New Skills.</p>
           <p>Discover Opportunities.</p>
           <p>Build your Future.</p>
-          <a href="/blog" className="green-btn">
+          <Link to="/blog" className="green-btn">
             Explore Articles
-          </a>
+          </Link>
         </div>
       </div>
     </div>

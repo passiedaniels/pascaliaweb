@@ -17,6 +17,18 @@
   display: flex;
   justify-content: space-around;
 }
+.middle-2 h2 {
+  margin-top: 20px;
+}
+.middle h2 {
+  margin-bottom: 50px;
+
+  margin-top: 50px;
+}
+.middle-1 h2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
 .picture-me {
   width: 600px;
   height: 600px;
@@ -39,6 +51,9 @@
 
 .card:hover {
   transform: translateY(-8px);
+}
+.green-btn {
+  text-decoration: none;
 }
 
 .value {

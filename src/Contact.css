@@ -59,6 +59,18 @@ textarea:focus {
   flex-direction: column;
   gap: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact-email a {
+  text-decoration: none;
+  color: #10b981;
+}
+.contact-email {
+  margin-bottom: 20px;
+}
+.social-icons a {
+  text-decoration: none;
+  color: #10b981;
 }
 h2 {
   display: inline-block;
