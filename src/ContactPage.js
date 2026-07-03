@@ -48,19 +48,42 @@ export default function ContactPage() {
                 <div className="form-group">
                   <div className="form-group-1">
                     <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" name="name" required />
+                    <input
+                      type="text"
+                      className="form"
+                      id="name"
+                      name="name"
+                      required
+                    />
                   </div>
                   <div className="form-group-2">
                     <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" name="email" required />
+                    <input
+                      type="email"
+                      className="form"
+                      id="email"
+                      name="email"
+                      required
+                    />
                   </div>
                   <div className="form-group-3">
                     <label htmlFor="subject">Subject:</label>
-                    <input type="text" id="subject" name="subject" required />
+                    <input
+                      type="text"
+                      id="subject"
+                      className="form"
+                      name="subject"
+                      required
+                    />
                   </div>
                   <div className="form-group-4">
                     <label htmlFor="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <textarea
+                      className="area"
+                      id="message"
+                      name="message"
+                      required
+                    ></textarea>
                   </div>
                   <div className="form-group-5">
                     <input
@@ -76,21 +99,21 @@ export default function ContactPage() {
         </div>
         <div className="questions">
           <h2>FREQUENTLY ASKED QUESTIONS</h2>
-          <div>
+          <div className="paragraph">
             <p>Q: Can I collaborate with you?</p>
             <p>A: Yes, I'm always open to new collaboration opportunities!</p>
           </div>
-          <div>
+          <div className="paragraph">
             <p>Q: Do you accept guest posts?</p>
             <p>A: Yes, I'm always interested in hearing from other creators!</p>
           </div>
-          <div>
+          <div className="paragraph">
             <p>Q: How quickly do you respond to messages?</p>
             <p>A: I strive to respond within 24-48 hours!</p>
           </div>
         </div>
       </div>
-      <div>
+      <div className="superb">
         <h3>Thank you for visiting !!</h3>
         <p>I appreciate you taking your time to explore my Journey.</p>
         <a href="/blog" className="contactpage-link">

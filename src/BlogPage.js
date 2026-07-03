@@ -1,6 +1,13 @@
 import React from "react";
 import "./Blog.css";
 import NavBar from "./components/NavBar";
+import frontEnd from "./Images/front-end.jpg";
+import frontDev from "./Images/frontdev.jpg";
+import incomeImage from "./Images/income.jpg";
+import studLife from "./Images/studLife.jpg";
+import student from "./Images/student.jpg";
+import careerGrowth from "./Images/career growth.jpg";
+import opportunities from "./Images/opportunities.jpg";
 
 export default function BlogPage() {
   return (
@@ -45,7 +52,7 @@ export default function BlogPage() {
       <div className="featured-article">
         <h2>Featured Article</h2>
         <div>
-          <img src="/article" alt="article" />
+          <img src={frontEnd} alt="article" />
         </div>
         <h4>How I started learning Front End Development..</h4>
         <p>
@@ -64,7 +71,7 @@ export default function BlogPage() {
         <div>
           <div className="article-card">
             <div>
-              <img src="/https" alt="article" />
+              <img src={incomeImage} alt="article" />
             </div>
             <div>
               <h3>Online Income</h3>
@@ -78,7 +85,7 @@ export default function BlogPage() {
 
         <div className="article-card">
           <div>
-            <img src="/https" alt="article" />
+            <img src={student} alt="article" />
           </div>
           <div>
             <h3>Student Life</h3>
@@ -89,7 +96,7 @@ export default function BlogPage() {
 
         <div className="article-card">
           <div>
-            <img src="/https" alt="article" />
+            <img src={opportunities} alt="article" />
           </div>
           <div>
             <h3>Opportunities</h3>
@@ -102,7 +109,7 @@ export default function BlogPage() {
 
         <div className="article-card">
           <div>
-            <img src="/https" alt="article" />
+            <img src={careerGrowth} alt="article" />
           </div>
           <div>
             <h3>Career Growth</h3>
@@ -115,7 +122,7 @@ export default function BlogPage() {
 
         <div className="article-card">
           <div>
-            <img src="/https" alt="article" />
+            <img src={frontDev} alt="article" />
           </div>
           <div>
             <h3>Tech skills</h3>
@@ -128,12 +135,12 @@ export default function BlogPage() {
 
         <div className="article-card">
           <div>
-            <img src="/https" alt="article" />
+            <img src={studLife} alt="article" />
           </div>
           <div>
             <h3>Student Life</h3>
             <p>5 side hustles for students</p>
-            <a href="/https" className="category-badge">
+            <a href="https/hhhh" className="category-badge">
               Read More
             </a>
           </div>
