@@ -5,6 +5,7 @@ import BlogPage from "./BlogPage.js";
 import { Routes, Route } from "react-router-dom";
 import ContactPage from "./ContactPage.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Article4 from "./components/Article4.js";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/Contact" element={<ContactPage />} />
+        <Route path="/article4" element={<Article4 />} />
       </Routes>
     </div>
   );

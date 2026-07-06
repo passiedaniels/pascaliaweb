@@ -10,6 +10,7 @@ import studLife from "./Images/studLife.jpg";
 import student from "./Images/student.jpg";
 import careerGrowth from "./Images/career growth.jpg";
 import opportunities from "./Images/opportunities.jpg";
+import { Link } from "react-router-dom";
 
 export default function BlogPage() {
   const form = useRef();
@@ -148,10 +149,10 @@ export default function BlogPage() {
           </div>
           <div>
             <h3>Tech skills</h3>
-            <p>My First React Project</p>
-            <a href="/https" className="category-badge">
+            <p>My First React Project: How I built my first react project.</p>
+            <Link to="/article4" className="category-badge">
               Read More
-            </a>
+            </Link>
           </div>
         </div>
 

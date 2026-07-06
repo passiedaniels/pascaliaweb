@@ -1,0 +1,13 @@
+.article4 {
+  text-align: left;
+  margin: 50px 50px;
+  padding: 40px;
+}
+.article4-btn {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
