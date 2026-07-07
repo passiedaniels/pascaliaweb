@@ -1,12 +1,16 @@
 import React from "react";
 import "../Article.css";
 import { Link } from "react-router-dom";
+import article4Image from "../Images/article4.jpg";
 
 export default function Article4() {
   return (
     <div className="Container">
       <div className="article4">
         <h1>How I Built My First React Website as a Student</h1>
+        <p className="meta">Published: July 2026</p>
+        <p className="meta">By Pascalia Aletia</p>
+        <img src={article4Image} className="article4-img" alt="codes" />
         <h3>Introduction</h3>
         <p>
           Learning web development as a student can feel overwhelming at first.
@@ -47,12 +51,14 @@ export default function Article4() {
         </p>
         <h3>Building the Website</h3>
         <p>I started by creating the main pages:</p>
-        <ul>
-          <li>Home Page</li>
-          <li>About Page</li>
-          <li>Contact Page</li>
-          <li>Blog Page</li>
-        </ul>
+        <div className="Lesson-list">
+          <ul className="Lesson-list">
+            <li>Home Page</li>
+            <li>About Page</li>
+            <li>Contact Page</li>
+            <li>Blog Page</li>
+          </ul>
+        </div>
         <p>
           After that, I designed a navigation bar and footer to make the website
           easy to navigate.
@@ -66,14 +72,20 @@ export default function Article4() {
           online.
         </p>
         <h3>Lessons I Learned</h3>
+
         <p>
           Building my first React website taught me several important lessons:
         </p>
-        <p>1: Consistency is more important than perfection.</p>
-        <p>2: Google and documentation are valuable learning tools.</p>
-        <p>3: Problems are a normal part of development.</p>
-        <p>4: Responsive design should be considered from the beginning.</p>
-        <p>5: Small improvements add up over time.</p>
+        <div className="Lesson-list">
+          <ul className="Lesson-list">
+            <li>Consistency is more important than perfection.</li>
+            <li> Google and documentation are valuable learning tools.</li>
+            <li> Problems are a normal part of development.</li>
+            <li> Responsive design should be considered from the beginning.</li>
+            <li>Small improvements add up over time.</li>
+          </ul>
+        </div>
+
         <h3>Conclusion</h3>
         <p>
           Building my first React website was challenging, but it was also one
