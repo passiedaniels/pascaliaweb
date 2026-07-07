@@ -5,7 +5,7 @@
   padding: 20px;
   line-height: 1.8;
 }
-.article4-img {
+.article-img {
   width: 500px;
 
   margin-bottom: 30px;
@@ -33,7 +33,7 @@
     width: 100%;
     padding: 15px;
   }
-  .article4-img {
+  .article-img {
     width: 350px;
   }
 }

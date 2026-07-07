@@ -10,7 +10,7 @@ export default function Article4() {
         <h1>How I Built My First React Website as a Student</h1>
         <p className="meta">Published: July 2026</p>
         <p className="meta">By Pascalia Aletia</p>
-        <img src={article4Image} className="article4-img" alt="codes" />
+        <img src={article4Image} className="article-img" alt="codes" />
         <h3>Introduction</h3>
         <p>
           Learning web development as a student can feel overwhelming at first.

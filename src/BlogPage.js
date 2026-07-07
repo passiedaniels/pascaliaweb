@@ -83,9 +83,9 @@ export default function BlogPage() {
           A personal story about learning coding as a student, overcoming
           challenges and building practical skills.
         </p>
-        <a href="/more" className="read-more">
+        <Link to="/article1" className="read-more">
           Read More
-        </a>
+        </Link>
       </div>
       <div className="latest-articles-header">
         <h2>Latest Articles</h2>
