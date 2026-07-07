@@ -51,7 +51,7 @@
   }
   .btn {
     flex-direction: column;
-    margin-left: 20px;
+    margin-right: 50px;
 
     gap: 50px;
     font-size: 13px;
