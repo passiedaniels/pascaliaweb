@@ -7,7 +7,7 @@ export default function NavBar() {
     <div className="components">
       <nav className="nav-content">
         <div>
-          <h2>Pae</h2>
+          <h2 className="logo">Pae</h2>
         </div>
         <ul>
           <li>

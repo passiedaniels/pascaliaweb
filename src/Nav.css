@@ -27,4 +27,7 @@ nav {
     font-size: 13px;
     margin: 0;
   }
+  .logo {
+    display: none;
+  }
 }
