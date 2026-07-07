@@ -99,9 +99,9 @@ export default function BlogPage() {
             <div>
               <h3>Online Income</h3>
               <p>Earn Online as a Student</p>
-              <a href="/https" className="category-badge">
+              <Link to="/article2" className="category-badge">
                 Read More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
