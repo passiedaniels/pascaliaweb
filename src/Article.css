@@ -28,3 +28,8 @@
   list-style: disc;
   padding-left: 40px;
 }
+@media (max-width: 900px) {
+  .article4-img {
+    width: 300px;
+  }
+}
