@@ -29,6 +29,10 @@
   padding-left: 40px;
 }
 @media (max-width: 900px) {
+  .article4 {
+    width: 100%;
+    padding: 15px;
+  }
   .article4-img {
     width: 300px;
   }
