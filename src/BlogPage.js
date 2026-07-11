@@ -113,7 +113,9 @@ export default function BlogPage() {
           <div>
             <h3>Student Life</h3>
             <p>Study Habits That Works</p>
-            <a href="/https">Read More</a>
+            <Link to="/article3" className="category-badge">
+              Read More
+            </Link>
           </div>
         </div>
 
@@ -124,9 +126,9 @@ export default function BlogPage() {
           <div>
             <h3>Opportunities</h3>
             <p>Internship Guide</p>
-            <a href="/https" className="category-badge">
+            <Link to="/article5" className="category-badge">
               Read More
-            </a>
+            </Link>
           </div>
         </div>
 
