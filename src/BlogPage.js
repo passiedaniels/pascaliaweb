@@ -139,9 +139,9 @@ export default function BlogPage() {
           <div>
             <h3>Career Growth</h3>
             <p>Creating CV with no experience</p>
-            <a href="/https" className="category-badge">
+            <Link to="/article6" className="category-badge">
               Read full article
-            </a>
+            </Link>
           </div>
         </div>
 

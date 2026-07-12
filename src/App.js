@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Article2 from "./components/Article2.js";
 import Article3 from "./components/Article3.js";
 import Article5 from "./components/Article5.js";
+import Article6 from "./components/Article6.js";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/article2" element={<Article2 />} />
         <Route path="/article3" element={<Article3 />} />
         <Route path="/article5" element={<Article5 />} />
+        <Route path="/article6" element={<Article6 />} />
       </Routes>
     </div>
   );
