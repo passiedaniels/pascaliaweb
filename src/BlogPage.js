@@ -165,7 +165,7 @@ export default function BlogPage() {
           <div>
             <h3>Student Life</h3>
             <p>5 side hustles for students</p>
-            <Link href="/article7" className="category-badge">
+            <Link to="/article7" className="category-badge">
               Read More
             </Link>
           </div>
